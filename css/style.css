@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Roxo-escuro: #2E1A47;
+    --Rosa-queimado: #C05661;
+}
+
+@font-face {
+    font-family: 'Urban Starblues';
+    src: url(/fonts/Urban\ Starblues\ Demo.otf) format('opentype');
+}

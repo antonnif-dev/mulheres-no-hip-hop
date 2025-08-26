@@ -1,0 +1,17 @@
+.cabecalhoAlternativo {
+    background-color: transparent;
+    border-bottom: 2px solid var(--cor-primaria);
+    padding: 1rem 0;
+}
+
+.cabecalhoAlternativo__navbar .nav-link {
+    color: var(--cor-texto) !important;
+    font-family: var(--fonte-titulo);
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.cabecalhoAlternativo__navbar .nav-link:hover {
+    color: var(--cor-primaria) !important;
+}

@@ -1,0 +1,45 @@
+.dicas {
+    margin: 0 10px;
+}
+
+.dicasCard {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dicasCard__elementos {
+    display: flex;
+    flex-direction: column;    
+    background-image: url(/images/background-card1.png);
+    gap: 5px;
+}
+
+.dicasCard__elementos__paragrafo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.dicasCard__elementos__imagem {
+    width: 10px;
+    margin: 5px;
+}
+
+.dicasCard__elementos__imagemTexto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-imagens {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.dicasCard__elementos__texto {
+    text-align: left;
+    color: white;
+}

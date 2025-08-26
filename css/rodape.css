@@ -1,0 +1,21 @@
+.rodape {
+    background-image: url(/images/background-rodape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    list-style: none;
+
+}
+
+.rodape__redesSociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 60px;
+}
+
+.rodape__icones {
+    width: 40px;
+}
