@@ -3,9 +3,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
   box-sizing: border-box;
-  height: 300px;
+  height: 400px;
+  padding: 1rem;
 }
 
 .cabecalho__container {
@@ -36,21 +36,4 @@
     max-width: 60%;
     text-align: right;
     opacity: 80%;
-}
-
-.titulos {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 40px;
-    padding-top: 20px;
-    font-family: 'Urban Starblues';
-}
-
-.subtitulos {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 40px;
-    padding-top: 20px;
 }

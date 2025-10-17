@@ -1,30 +1,29 @@
-
-.containerProfissoes {
+.containerIdealizador {
     background-image: url(/images/background-rodape.png);
     margin: 0 auto;
 }
 
-.profissoes-flex {
+.idealizador-flex {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    align-items: center;
     flex-wrap: wrap;
     padding: 0 1rem;
 }
 
-.profissoes-card {
-    width: 18rem;
+.idealizador-card {
+    width: 50rem;
     background-color: #1a1a1a;
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     position: relative;
     z-index: 1;
 }
 
-.profissoes-card::before {
+.idealizador-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -39,60 +38,50 @@
     transition: transform 0.4s ease, border-color 0.4s ease, background 0.4s ease;
 }
 
-.profissoes-card:hover::before {
+.idealizador-card:hover::before {
     transform: scale(1.05);
     background: linear-gradient(45deg, var(--cor-primaria), var(--cor-terciaria), var(--cor-secundaria));
     border-color: transparent;
 }
 
-.profissoes-card__imagem {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 4px solid var(--cor-primaria);
-    margin-bottom: 1rem;
-    transition: border-color 0.4s ease;
+.idealizador-card__imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 0.8rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0;
+    height: auto;
+    overflow: visible;
 }
 
-.profissoes-card:hover .profissoes-card__imagem {
+.idealizador-card:hover .idealizador-card__imagem {
     border-color: var(--cor-terciaria);
 }
 
-.profissoes-card__imagem img {
-    width: 100%;
-    height: 100%;
+.idealizador-card__imagem img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--cor-primaria);
     object-fit: cover;
+    transition: border-color 0.4s ease;
 }
 
-.profissoes-card__info h4 {
+.idealizador-card__info h4 {
     font-family: var(--fonte-titulo);
     font-size: 1.8rem;
     color: var(--cor-texto);
     margin-bottom: 0.5rem;
+    flex-wrap: wrap;
 }
 
-.profissoes-card__info p {
+.idealizador-card__info p {
     font-size: 0.9rem;
     color: var(--cor-secundaria);
     min-height: 4rem;
     display: flex;
     flex-wrap: wrap;
-}
-
-.social-link {
-    display: inline-block;
-    color: var(--cor-texto);
-    background-color: var(--cor-secundaria);
-    padding: 0.75rem 1.5rem;
-    border-radius: 5px;
-    text-decoration: none;
-    font-family: var(--fonte-corpo);
-    font-weight: 700;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.social-link:hover {
-    background-color: var(--cor-terciaria);
-    transform: translateY(-3px);
 }

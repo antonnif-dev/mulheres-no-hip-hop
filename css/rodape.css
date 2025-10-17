@@ -1,10 +1,14 @@
 .rodape {
     background-image: url(/images/background-rodape.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     list-style: none;
+    height: 14rem;
+    padding-top: 2rem;
+}
 
+.rodape h5 {
+    font-size: 2rem;
+    font-family: var(--fonte-corpo);
 }
 
 .rodape__redesSociais {
@@ -12,8 +16,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    height: 60px;
+    gap: 4rem;
 }
 
 .rodape__icones {

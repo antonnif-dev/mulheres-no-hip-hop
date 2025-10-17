@@ -78,3 +78,4 @@ document.querySelectorAll('.dicasCard__elementos').forEach(card => {
         }
     });
 });
+

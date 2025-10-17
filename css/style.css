@@ -1,21 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --Roxo-escuro: #2E1A47;
-    --Rosa-queimado: #C05661;
+@font-face {
+  font-family: 'Urban Starblues';
+  src: url('../fonts/UrbanStarbluesDemo.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Urban Starblues';
-    src: url(/fonts/Urban\ Starblues\ Demo.otf) format('opentype');
+  font-family: 'Streetart Demo';
+  src: url('../fonts/StreetartDemoRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Streetart Demo Italic';
+  src: url('../fonts/StreetartDemoItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bigwogs GT Demo';
+  src: url('../fonts/BigwogsGTDemo.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Roxo-escuro: #2E1A47;
+  --Rosa-queimado: #C05661;
+
+  --cor-fundo: #0a0a0a;
+  --cor-primaria: #ff4081;
+  --cor-secundaria: #673ab7;
+  --cor-terciaria: #00bcd4;
+  --cor-texto: #f0f0f0;
+  --fonte-titulo: 'Bebas Neue', sans-serif;
+  --fonte-corpo: 'Roboto Mono', monospace;
+}
+
+.titulos {
+  font-family: 'Streetart Demo', serif;
+  font-size: 3rem;
+  color: var(--cor-primaria);
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.titulos2 {
+  font-family: 'Streetart Demo', serif;
+  font-size: 3rem;
+  color: var(--cor-primaria);
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.subtitulos {
+  font-family: var(--fonte-corpo);
+  font-size: 1.7rem;
+  color: var(--cor-texto);
+  text-align: center;
+  margin-bottom: 3rem;
+  margin: 0 10px;
 }
